@@ -119,7 +119,7 @@ export default function NavMenu() {
         </Link>
       </li>
       <li>
-        <Link href="/home">
+        <Link href={`/${me?.id}`}>
           <div className={style.navPill}>
             {segment === me.id ? (
               <>
